@@ -1,0 +1,80 @@
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.riquadro{
+    background-color: black;
+    width: 70em;
+    height: 50em;
+    margin: auto;
+    border-radius: 5% 5% 5% 5%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#logo{
+    width: 15em;
+    margin: auto;
+    margin-top: 6em;
+    display: block;
+}
+
+#titolo{
+    color: #00DD01;
+    text-align: center;
+}
+
+.firstdiv{
+    background-color: #00dd01;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.firstdiv > button{
+   display: inline-block;
+   margin: 10px;
+}
+
+.secondiv{
+    width: 75%;
+    margin: auto;
+}
+
+.secondiv *, p{   
+    color: white;
+}
+
+.block{
+    /*border: 2px solid black;*/
+    margin: 30px 0 0 0;
+}
+
+#arancione{
+    border: 15px solid #F5B453;
+    display: inline-block;
+    width: 350px;
+    border-radius: 5px;
+}
+
+#verde{
+    border: 15px solid #1EC31E;
+    display: inline-block;
+    width: 550px;
+    border-radius: 5px;
+}
+
+#rosso{
+    border: 15px solid #BE4141;
+    display: inline-block;
+    width: 100px;
+    border-radius: 5px;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 10px 10px 0 0;
+}
+
